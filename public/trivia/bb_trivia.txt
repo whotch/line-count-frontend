@@ -1,5 +1,5 @@
 A higher episode count serves as the tie-breaker.
-For characters with identical names, I've added the first episodein which they appeared in parentheses.
+For characters with identical names, I've added the first episode in which they appeared in parentheses.
 Walt, Skyler, and Jesse were in all 62 episodes. Following them are: Hank and Junior (53), Marie (51), Saul (36), Gomez and Holly (33), Mike (25), Gus (24), Skinny Pete (15), Ted (13), Badger (12), Todd and Huell (11), and Jane, Tyrus, Merkert, and Francesca (10).
 Highest lines-per-episode averages (minimum 3 episodes): Walt (62.0), Jesse (34.9), Skyler (26.5), Hank (23.5), Elliott (22.3), Tuco (20.5), Gretchen (19.8), Jane (19.2), Lydia (18.2), Mike (18.0), Krazy-8 (17.3), Donald Margolis (15.5), Badger (15.1), Ted (14.5), Tim Roberts (13.8).
 The lines-per-episode averages of the other main characters (and Gomez): Marie (13.1), Saul (12.9), Gus (11.5), Todd (10.3), Junior (10.1), Gomez (8.4).

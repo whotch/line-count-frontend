@@ -1,5 +1,5 @@
 A higher episode count serves as the tie-breaker.
-For characters with identical names, I've added the first episodein which they appeared in parentheses.
+For characters with identical names, I've added the first episode in which they appeared in parentheses.
 Characters played by Josh Radnor, Jason Segel, Cobie Smulders, Neil Patrick Harris, and Alyson Hannigan in fake history lessons or similar cutaways were attributed to the appropriate main character.
 Tracy was only counted as appearing in an episode when Cristin Milioti played her, not when a body double was on screen. If a character neither speaks nor shows their face, it typically does not count as an appearance.
 Archival footage counted as an appearance only if lines were spoken. 

@@ -1,5 +1,5 @@
 A higher episode count serves as the tie-breaker.
-For characters with identical names, I've added the first episodein which they appeared in parentheses.
+For characters with identical names, I've added the first episode in which they appeared in parentheses.
 Many characters are played by multiple actors across different ages in Season 1. Most prominently, Rhaenyra had 229 lines spoken by Milly Alcock (225 in 5 episodes in S1, 5 in 2 episodes in S2). This accounts for 34% of her total lines. The rest were spoken by Emma D’Arcy.
 Alicent had 132 lines spoken by Emily Carey in 5 episodes. This accounts for 26% of her total lines. The rest were spoken by Olivia Cooke.
 Laena was played by three actors. The youngest version, played by Nova Foueillis-Mosé, had 7 lines across 2 episodes (18%). Adolescent Laena, played by Savannah Steyn, had 6 lines in 1 episode (15%). The rest were spoken by Nanna Blondell.
