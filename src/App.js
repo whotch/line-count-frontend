@@ -94,7 +94,7 @@ function App() {
   useEffect(() => {
     if (activeContent === 'data') {
       // Fetch unique seasons when Data is selected for the Season dropdown
-      fetch(`http://${webUrl}/api/${selectedSeries.toLowerCase()}_unique_seasons`)
+      fetch(`https://${webUrl}/api/${selectedSeries.toLowerCase()}_unique_seasons`)
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -138,9 +138,9 @@ function App() {
       if (selectedSeason !== 'El Camino') {
         let url;
         if (selectedPart) {
-          url = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_unique_part_episodes/${selectedSeason}/${selectedPart}`
+          url = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_unique_part_episodes/${selectedSeason}/${selectedPart}`
         } else {
-          url = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_unique_episodes/${selectedSeason}`
+          url = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_unique_episodes/${selectedSeason}`
         }
         fetch(url)
           .then(response => {
@@ -190,26 +190,26 @@ function App() {
     if (selectedSeason === 'all') {
       // Breaking Bad with El Camino
       if (selectedSeries === 'BB' && elcaminoIncluded) {
-        url = `http://${webUrl}/api/bb_series_combined_totals`
+        url = `https://${webUrl}/api/bb_series_combined_totals`
       }
       else {
-        url = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_series_totals`;
+        url = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_series_totals`;
       }
         setType('series');
         setEcVisible(true);
     }
     // El Camino for Breaking Bad
     else if (selectedSeries === 'BB' && selectedSeason === 'El Camino') {
-      url = `http://${webUrl}/api/bb_elcamino_totals`;
+      url = `https://${webUrl}/api/bb_elcamino_totals`;
       setType('season');
       setEcVisible(false);
     }
     // full season or part
     else if (selectedEpisode === 'all') {
       if (selectedPart) {
-        url = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_part_totals/${selectedSeason}/${selectedPart}`;
+        url = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_part_totals/${selectedSeason}/${selectedPart}`;
       } else {
-      url = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_season_totals/${selectedSeason}`;
+      url = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_season_totals/${selectedSeason}`;
       }
       setType('season');
       setEcVisible(true);
@@ -217,9 +217,9 @@ function App() {
     // episode
     else {
       if (selectedPart) {
-        url = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_part_ep_totals/${selectedSeason}/${selectedPart}/${selectedEpisode}`
+        url = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_part_ep_totals/${selectedSeason}/${selectedPart}/${selectedEpisode}`
       } else {
-        url = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_ep_totals/${selectedSeason}/${selectedEpisode}`;
+        url = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_ep_totals/${selectedSeason}/${selectedEpisode}`;
       }
       setType('episode');
       setEcVisible(false);
@@ -245,10 +245,10 @@ function App() {
           let epNameUrl;
           if (selectedPart) {
             // if episode is from a part
-            epNameUrl = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_part_ep_name/${selectedSeason}/${selectedPart}/${selectedEpisode}`;
+            epNameUrl = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_part_ep_name/${selectedSeason}/${selectedPart}/${selectedEpisode}`;
           } else {
             // if episode is from a season
-            epNameUrl = `http://${webUrl}/api/${selectedSeries.toLowerCase()}_ep_name/${selectedSeason}/${selectedEpisode}`;
+            epNameUrl = `https://${webUrl}/api/${selectedSeries.toLowerCase()}_ep_name/${selectedSeason}/${selectedEpisode}`;
           }
           fetch(epNameUrl)
             .then(response => {
